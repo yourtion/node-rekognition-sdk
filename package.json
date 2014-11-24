@@ -1,13 +1,22 @@
 {
     "name": "rekognition",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "ReKognition Node.js SDK ",
     "main": "index.js",
     "author": "Yourtion Guo",
-    "keywords": ["ReKognition", "API", "Face Detect","Face Recognize"],
+    "keywords": [
+        "ReKognition", 
+        "API", 
+        "Face Detect",
+        "Face Recognize"
+    ],
     "repository" : {
         "type": "git",
         "url": "https://github.com/yourtion/Rekognition_API_NODEJS_SDK.git"
     },
+    "dependencies": {
+        "underscore": "^1.6.0",
+        "request": "~2.48.0"
+  },
     "engines": { "node": "*" }
 }
